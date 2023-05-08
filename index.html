@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Agenda</title>
 </head>
@@ -14,8 +14,24 @@
         <input type="date" placeholder="fecha del evento" id= "fecha">
         <input type="datetime" placeholder=" hora del evento" id = "hora">
         <button class="BtnAgregar" type="submit"> Agregar evento</button>
+        <button class ="mostrarEventos">Mostrar Eventos</button>
     </form>
+
     
+    <div class="tabla">
+        <table id="listaEventos">
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Fecha del evento</th>
+                    <th>hora del evento</th>
+                    <th></th>
+                </tr>
+             </thead>
+        </table>
+
+
+    </div>
 </body>
-<script src="app.js"></script> 
+<script src="/js/app.js"></script> 
 </html>
