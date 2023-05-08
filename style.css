@@ -25,11 +25,14 @@ h1 {
   }
   
   .form button {
+    margin-top: 10px;
     padding: 0.5em 1em;
     border: none;
-    background: rgb(100, 200, 255);
+    background: rgb(13, 13, 14);
     cursor: pointer;
   }
+  
+
   .tabla {
     margin-top:50px;
   }

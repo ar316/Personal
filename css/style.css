@@ -23,8 +23,16 @@ h1 {
     height: 30px;
     margin: 0.5rem;
   }
-  
+  .form .mostrarEventos {
+    border-radius: 50px;
+    margin-top: 15px;
+    padding: 0.5em 1em;
+    border: none;
+    background: rgb(91, 214, 34);
+    cursor: pointer;
+  }
   .form button {
+    border-radius: 50px;  
     padding: 0.5em 1em;
     border: none;
     background: rgb(100, 200, 255);
@@ -39,4 +47,22 @@ h1 {
     color: rgb(44, 34, 34)  
      
   }
- 
+  table tr{
+    padding: 25px;
+    color: rgb(44, 34, 34)  
+     
+  }
+
+  #carrito{
+    display: block;
+    position: absolute;
+    z-index: 1;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    min-height: 400px;
+    min-width: 300px;
+    padding: 25px;
+    color: rgb(44, 34, 34) 
+    
+   
+}
