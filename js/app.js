@@ -21,7 +21,7 @@ function AgregarEnvento(e){
    }
    cant = [...cant, infoEvento];
    form.reset();
-   const tabla = document.querySelector('#listaEventos');
+  
 
    cant.forEach( e  => {
     const row  = document.createElement('tr');
